@@ -1,22 +1,18 @@
-import blockContent from './blockContent'
-import crewMember from './crewMember'
-import castMember from './castMember'
-import movie from './movie'
-import person from './person'
-import screening from './screening'
-import plotSummary from './plotSummary'
-import plotSummaries from './plotSummaries'
+import media from './media'
+import mediaRef from './media-ref'
+import plant from './plant'
+import season from './season'
+import color from './color'
 
 export const schemaTypes = [
   // Document types
-  movie,
-  person,
-  screening,
+  plant,
+  media,
 
   // Other types
-  blockContent,
-  plotSummary,
-  plotSummaries,
-  castMember,
-  crewMember,
+  season,
+  color,
+
+  // References
+  mediaRef,
 ]
