@@ -11,6 +11,8 @@ export default defineConfig({
   projectId: 'rb0oc6we',
   dataset: 'production',
 
+  apiVersion: '2021-10-21',
+
   plugins: [
     deskTool(),
     visionTool(),
